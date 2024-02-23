@@ -1,6 +1,8 @@
-[
-    { "text": "The quick brown fox jumps over the lazy dog.", "source": "Unknown" },
-    { "text": "A journey of a thousand miles begins with a single step.", "source": "Lao Tzu" },
-    { "text": "To be, or not to be, that is the question.", "source": "William Shakespeare" }
-    // Add more sentences as needed
-]
+{
+  "sentences": [
+    "This is sentence 1.",
+    "This is sentence 2.",
+    "This is sentence 3.",
+    "This is sentence 4."
+  ]
+}
