@@ -43,7 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 .then(sentences => {
                     const randomIndex = Math.floor(Math.random() * sentences.length);
                     exampleSentence.textContent = sentences[randomIndex].sentence;
-                    source.textContent = 'Source: ' + sentences[randomIndex].source;
+                    source.textContent = sentences[randomIndex].title + ', ' + sentences[randomIndex].artist + ' (' + sentences[randomIndex].year + ')';
+                    writer.textContent = sentences[randomIndex].writer;
                     exampleSentenceWords = sentences[randomIndex].sentence.split(/\s+/);
                     userInput.value = '';
                     startTime = null;
