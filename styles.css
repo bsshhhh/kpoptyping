@@ -23,6 +23,11 @@ body {
     font-size: 18px;
 }
 
+#source {
+    font-style: italic;
+    color: #666;
+}
+
 #user-input {
     margin-top: 10px;
     padding: 8px;
