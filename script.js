@@ -36,26 +36,28 @@ document.addEventListener('DOMContentLoaded', function() {
     // Event listener for user input
     userInput.addEventListener('input', calculateMetrics);
 
+    // Function to fetch the next sentence from the JSON file and display it
+    function showNextSentence() {
+        fetch('sentences.json')
+            .then(response => response.json())
+            .then(sentences => {
+                const randomIndex = Math.floor(Math.random() * sentences.length);
+                exampleSentence.textContent = sentences[randomIndex];
+                exampleSentenceWords = sentences[randomIndex].split(/\s+/);
+                userInput.value = ''; // Clear user input
+                startTime = null; // Reset start time for accuracy calculation
+                wordCount = 0; // Reset word count for accuracy calculation
+                correctWordCount = 0; // Reset correct word count for accuracy calculation
+                typingSpeedDisplay.textContent = 'Speed: 0 CPM'; // Reset typing speed display
+                accuracyDisplay.textContent = 'Accuracy: 0%'; // Reset accuracy display
+            })
+            .catch(error => console.error('Error fetching example sentences:', error));
+    }
+
     // Event listener for Enter key press
     userInput.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
-            // Show next sentence
-            const exampleSentences = [
-                '널 생각만 해도 난 강해져 울지 않게 나를 도와줘',
-                '다시 만들어볼게 우리 이야기 끝나지 않게 아주 기나긴 살갗을 파고 스며드는 상실감은 잠시 묻어둘게',
-                '날 보며 웃을 때 마다 맘 속 깊은 곳에선 심각해지는 병이 있어요', 
-                '제자리서 지켜 보는 것만이 상처 없이 너를 소유하는 방식', 
-                '달콤히 찍어 문 빛의 퐁듀 보이기 시작한 음의 색도'
-            ];
-            const randomIndex = Math.floor(Math.random() * exampleSentences.length);
-            exampleSentence.textContent = exampleSentences[randomIndex];
-            exampleSentenceWords = exampleSentences[randomIndex].split(/\s+/);
-            userInput.value = ''; // Clear user input
-            startTime = null; // Reset start time for accuracy calculation
-            wordCount = 0; // Reset word count for accuracy calculation
-            correctWordCount = 0; // Reset correct word count for accuracy calculation
-            typingSpeedDisplay.textContent = 'Speed: 0 타'; // Reset typing speed display
-            accuracyDisplay.textContent = 'Accuracy: 0%'; // Reset accuracy display
+            showNextSentence();
         }
     });
 
