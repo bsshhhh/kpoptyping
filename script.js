@@ -1,66 +1,60 @@
-// Sample sentences data
-const sentences = [
-    { text: "The quick brown fox jumps over the lazy dog.", source: "Unknown" },
-    { text: "A journey of a thousand miles begins with a single step.", source: "Lao Tzu" },
-    { text: "To be, or not to be, that is the question.", source: "William Shakespeare" },
-    // Add more sentences as needed
-];
-
-let currentSentenceIndex = -1;
+let sentencesData;
+let currentSentenceIndex = 0;
 let startTime;
 
 const sentenceElement = document.getElementById('sentence');
-const userInput = document.getElementById('userInput');
-const feedbackElement = document.getElementById('feedback');
+const sourceElement = document.getElementById('source');
+const inputElement = document.getElementById('input');
 
-function displayNextSentence() {
-    currentSentenceIndex++;
-    if (currentSentenceIndex >= sentences.length) {
-        alert('You have completed all sentences!');
-        return;
-    }
-    const sentence = sentences[currentSentenceIndex];
-    sentenceElement.textContent = sentence.text;
-    userInput.value = '';
-    userInput.focus();
-    startTime = new Date().getTime(); // Record start time
-}
-
-function calculateAccuracyAndSpeed() {
-    const enteredText = userInput.value.trim();
-    const sentence = sentences[currentSentenceIndex];
-    const elapsedTimeInSeconds = (new Date().getTime() - startTime) / 1000;
-    const wordsTyped = enteredText.split(/\s+/).length;
-    const accuracy = calculateAccuracy(sentence.text, enteredText);
-    const speed = wordsTyped / elapsedTimeInSeconds;
-    return { accuracy, speed };
-}
-
-function calculateAccuracy(originalText, enteredText) {
-    if (!originalText || !enteredText) return 0;
-    const originalWords = originalText.split(/\s+/);
-    const enteredWords = enteredText.split(/\s+/);
-    let correctWords = 0;
-    for (let i = 0; i < enteredWords.length; i++) {
-        if (enteredWords[i] === originalWords[i]) {
-            correctWords++;
+// Function to fetch sentences data from JSON file
+async function fetchSentences() {
+    try {
+        const response = await fetch('sentences.json');
+        if (!response.ok) {
+            throw new Error('Failed to fetch data');
         }
+        sentencesData = await response.json();
+        displayNextSentence();
+    } catch (error) {
+        console.error('Error fetching data:', error.message);
     }
-    return (correctWords / originalWords.length) * 100;
 }
 
-userInput.addEventListener('input', function() {
-    const { accuracy, speed } = calculateAccuracyAndSpeed();
-    feedbackElement.textContent = `Accuracy: ${accuracy.toFixed(2)}%, Speed: ${speed.toFixed(2)} words/s`;
-});
+// Function to display the next sentence
+function displayNextSentence() {
+    if (currentSentenceIndex < sentencesData.length) {
+        const { sentence, source } = sentencesData[currentSentenceIndex];
+        sentenceElement.textContent = sentence;
+        sourceElement.textContent = `- ${source}`;
+        currentSentenceIndex++;
+    } else {
+        sentenceElement.textContent = "No more sentences.";
+        sourceElement.textContent = "";
+        inputElement.disabled = true;
+    }
+}
 
-userInput.addEventListener('keyup', function(event) {
-    if (event.key === 'Enter') {
-        const { accuracy, speed } = calculateAccuracyAndSpeed();
-        feedbackElement.textContent = `Accuracy: ${accuracy.toFixed(2)}%, Speed: ${speed.toFixed(2)} words/s`;
+// Event listener for input
+inputElement.addEventListener('input', () => {
+    if (!startTime) {
+        startTime = new Date();
+    }
+    
+    const typedText = inputElement.value.trim();
+    const currentSentence = sentencesData[currentSentenceIndex - 1].sentence;
+    
+    if (typedText === currentSentence) {
+        const endTime = new Date();
+        const timeTaken = (endTime - startTime) / 1000; // in seconds
+        const accuracy = (currentSentence.length / typedText.length) * 100;
+        
+        alert(`You typed the sentence correctly in ${timeTaken} seconds with ${accuracy.toFixed(2)}% accuracy.`);
+        
+        inputElement.value = '';
+        startTime = null;
         displayNextSentence();
     }
 });
 
-// Display the first sentence
-displayNextSentence();
+// Fetch sentences data when the page loads
+fetchSentences();
