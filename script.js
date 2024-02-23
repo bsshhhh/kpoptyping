@@ -17,9 +17,21 @@ function getRandomSentence(sentences) {
 }
 
 // Call fetchData() to fetch JSON data and display random sentence
-fetchData()
-  .then(data => {
-    const sentences = data.sentences;
-    getRandomSentence(sentences);
-  })
-  .catch(error => console.error('Error fetching data:', error));
+userInput().addEventListner('keypress', function(event)) {
+  if (event.key === 'Enter') {
+    fetchData()
+      .then(data => {
+        const sentences = data.sentences;
+        getRandomSentence(sentences);
+      })
+      .catch(error => console.error('Error fetching data:', error))
+  }
+}
+
+
+// fetchData()
+//   .then(data => {
+//     const sentences = data.sentences;
+//     getRandomSentence(sentences);
+//   })
+//   .catch(error => console.error('Error fetching data:', error));
