@@ -24,12 +24,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Event listener for user input
     userInput.addEventListener('input', calculateSpeed);
 
-    // Display initial example sentence
-    const exampleSentences = [
-        'The quick brown fox jumps over the lazy dog.',
-        'Sphinx of black quartz, judge my vow.',
-        'Pack my box with five dozen liquor jugs.'
-    ];
-    const randomIndex = Math.floor(Math.random() * exampleSentences.length);
-    exampleSentence.textContent = exampleSentences[randomIndex];
+    // Fetch example sentences from JSON file
+    fetch('sentences.json')
+        .then(response => response.json())
+        .then(sentences => {
+            // Display initial example sentence
+            const randomIndex = Math.floor(Math.random() * sentences.length);
+            exampleSentence.textContent = sentences[randomIndex];
+        })
+        .catch(error => console.error('Error fetching example sentences:', error));
 });
