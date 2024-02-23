@@ -4,19 +4,17 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 50px auto;
+    margin: 0 auto;
     text-align: center;
+    padding-top: 100px;
 }
 
-input[type="text"] {
-    width: 80%;
+#sentence-container {
+    margin-bottom: 20px;
+}
+
+#input {
+    width: 100%;
     padding: 10px;
-    margin-top: 20px;
     font-size: 16px;
-}
-
-#feedback {
-    font-style: italic;
-    color: #888;
-    margin-top: 10px;
 }
