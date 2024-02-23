@@ -1,8 +1,14 @@
-{
-  "sentences": [
-    "This is sentence 1.",
-    "This is sentence 2.",
-    "This is sentence 3.",
-    "This is sentence 4."
-  ]
-}
+[
+    {
+        "sentence": "The quick brown fox jumps over the lazy dog.",
+        "source": "Unknown"
+    },
+    {
+        "sentence": "Sphinx of black quartz, judge my vow.",
+        "source": "Unknown"
+    },
+    {
+        "sentence": "Pack my box with five dozen liquor jugs.",
+        "source": "Unknown"
+    }
+]
