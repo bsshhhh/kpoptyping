@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,7 +22,7 @@ body {
 }
 
 #example-sentence {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 #user-input {
@@ -31,7 +33,7 @@ body {
     border-radius: 5px;
 }
 
-#typing-speed, #accuracy {
+#typing-speed {
     margin-top: 10px;
     font-size: 16px;
     color: #666;
