@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 startTime = null; // Reset start time for accuracy calculation
                 wordCount = 0; // Reset word count for accuracy calculation
                 correctWordCount = 0; // Reset correct word count for accuracy calculation
-                typingSpeedDisplay.textContent = 'Speed: 0 CPM'; // Reset typing speed display
+                typingSpeedDisplay.textContent = 'Speed: 0 타'; // Reset typing speed display
                 accuracyDisplay.textContent = 'Accuracy: 0%'; // Reset accuracy display
             })
             .catch(error => console.error('Error fetching example sentences:', error));
