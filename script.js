@@ -64,14 +64,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Fetch example sentences from JSON file
-    fetch('sentences.json')
-        .then(response => response.json())
-        .then(sentences => {
-            const randomIndex = Math.floor(Math.random() * sentences.length);
-            exampleSentence.textContent = sentences[randomIndex];
-            exampleSentenceWords = sentences[randomIndex].split(/\s+/);
-            userInput.focus(); // Move cursor to the input box
-        })
-        .catch(error => console.error('Error fetching example sentences:', error));
+    // Display initial example sentence
+    const exampleSentences = [
+        '엔터 눌러서 시작하기'
+    ]; 
+    randomIndex = Math.floor(Math.random() * exampleSentences.length);
+    exampleSentence.textContent = exampleSentences[randomIndex];
+    exampleSentenceWords = exampleSentences[randomIndex].split(/\s+/);
 });
