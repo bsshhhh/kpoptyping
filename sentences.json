@@ -13,7 +13,7 @@
   "year": 2007,
   "artist": "소녀시대 (GIRLS' GENERATION)",
   "writer": "이승철",
-  "sentence": "어리다고 놀리지 말아요 수줍어서 말도 못하고 \n어리다고 놀리지 말아요 스쳐가는 얘기뿐인 걸"
+  "sentence": "어리다고 놀리지 말아요 수줍어서 말도 못하고"
  },
  {
   "ID": 3,
@@ -45,7 +45,7 @@
   "year": 2011,
   "artist": "소녀시대 (GIRLS' GENERATION)",
   "writer": "유영진",
-  "sentence": "겁이 나서 시작조차 안 해 봤다면 그댄 투덜대지 마라 좀!\n주저하면 기회는 모두 너를 비켜가 가슴 펴고 나와봐라 좀!"
+  "sentence": "겁이 나서 시작조차 안 해 봤다면 그댄 투덜대지 마라 좀!"
  },
  {
   "ID": 7,
@@ -53,7 +53,7 @@
   "year": 2013,
   "artist": "소녀시대 (GIRLS' GENERATION)",
   "writer": "유영진",
-  "sentence": "나, 깜짝! 멘붕이야! 그 사람은 내 민 낯이 궁금하대. \n완전 맘에 들어 못 이긴 척 보여줘도 괜찮을까?"
+  "sentence": "나, 깜짝! 멘붕이야! 그 사람은 내 민 낯이 궁금하대"
  },
  {
   "ID": 8,
@@ -77,7 +77,7 @@
   "year": 2022,
   "artist": "소녀시대 (GIRLS' GENERATION)",
   "writer": "Kenzie",
-  "sentence": "네가 머문 이 세상이 더 아름다운 건\n겁 없이 외치던 말 '사랑해 너를' 영원하기에"
+  "sentence": "네가 머문 이 세상이 더 아름다운 건 겁 없이 외치던 말 '사랑해 너를' 영원하기에"
  },
  {
   "ID": 11,
@@ -85,7 +85,7 @@
   "year": 2014,
   "artist": "Red Velvet (레드벨벳)",
   "writer": "유영진",
-  "sentence": "어제 오늘 내일도 행복을 찾는 나의 모험일기\n달라 달라 나는 좀 긍정의 힘을 나는 믿고 있지"
+  "sentence": "어제 오늘 내일도 행복을 찾는 나의 모험일기 달라 달라 나는 좀 긍정의 힘을 나는 믿고 있지"
  },
  {
   "ID": 12,
@@ -133,7 +133,7 @@
   "year": 2017,
   "artist": "Red Velvet (레드벨벳)",
   "writer": "이스란",
-  "sentence": "오직 나에게만 펼쳐져 온통 너로 날 물들여\n내 맘을 가득 채워 Baby I will love you till kingdom come"
+  "sentence": "오직 나에게만 펼쳐져 온통 너로 날 물들여"
  },
  {
   "ID": 18,
@@ -141,7 +141,7 @@
   "year": 2018,
   "artist": "Red Velvet (레드벨벳)",
   "writer": "Kenzie",
-  "sentence": "아무것도 안 했는데 왜 시간을 벌써 3시 \n아이스 아메리카노 마셔도 왜 더 후끈후끈 하니"
+  "sentence": "아무것도 안 했는데 왜 시간을 벌써 3시 아이스 아메리카노 마셔도 왜 더 후끈후끈 하니"
  },
  {
   "ID": 19,
@@ -229,7 +229,7 @@
   "year": 2019,
   "artist": "TWICE(트와이스)",
   "writer": "박진영",
-  "sentence": "그런 날이 있어 갑자기 혼자인 것만 같은 날\n어딜 가도 내 자리가 아닌 것만 같고 고갠 떨궈지는 날"
+  "sentence": "그런 날이 있어 갑자기 혼자인 것만 같은 날"
  },
  {
   "ID": 30,
@@ -237,7 +237,7 @@
   "year": 2021,
   "artist": "TWICE(트와이스)",
   "writer": "박진영",
-  "sentence": "너는 정말 특별해 전혀 독하지 않은데\n낮에 별이 뜨게 해 한 모금 마셨는데"
+  "sentence": "너는 정말 특별해 전혀 독하지 않은데 낮에 별이 뜨게 해 한 모금 마셨는데"
  },
  {
   "ID": 31,
@@ -285,7 +285,7 @@
   "year": 2016,
   "artist": "여자친구(GFRIEND)",
   "writer": "오레오, C-no, 웅킴, 임수호",
-  "sentence": "여름날에 쏟아지는 파도 그 안에서 출렁이는 바다 물꽃처럼\n무더운 세상을 시원하게 날려줄거야"
+  "sentence": "여름날에 쏟아지는 파도 그 안에서 출렁이는 바다 물꽃처럼"
  },
  {
   "ID": 37,
@@ -389,7 +389,7 @@
   "year": 2021,
   "artist": "AKMU(악뮤)",
   "writer": "이찬혁",
-  "sentence": "피가 나는 줄도 모르고 걸음을 빨리 재촉하는 당신은\n어떤 것을 그토록 사랑하길래 몇 번을 살아났나요"
+  "sentence": "피가 나는 줄도 모르고 걸음을 빨리 재촉하는 당신은 어떤 것을 그토록 사랑하길래 몇 번을 살아났나요"
  },
  {
   "ID": 50,
@@ -398,5 +398,349 @@
   "artist": "AKMU(악뮤)",
   "writer": "이찬혁",
   "sentence": "내가 준 목걸이를 잃어버려도 한 번 더 같은 것 사준 걸 다시 또 잃어도 좋아"
+ },
+ {
+  "ID": 51,
+  "title": "Black Mamba",
+  "year": 2020,
+  "artist": "aespa",
+  "writer": "유영진",
+  "sentence": "에스파는 나야 둘이 될 수 없어"
+ },
+ {
+  "ID": 52,
+  "title": "Next Level",
+  "year": 2021,
+  "artist": "aespa",
+  "writer": "유영진",
+  "sentence": "광야로 걸어가 알아 네 Home ground 위협에 맞서서 제껴라 제껴라 제껴라"
+ },
+ {
+  "ID": 53,
+  "title": "Girls",
+  "year": 2022,
+  "artist": "aespa",
+  "writer": "유영진",
+  "sentence": "일어나라 그대여 더 치명적인 전쟁 속에"
+ },
+ {
+  "ID": 54,
+  "title": "Thirsty",
+  "year": 2023,
+  "artist": "aespa",
+  "writer": "김보은(Jam factory)",
+  "sentence": "난 또 너를 두드리고 있어 반짝이는 수면 위를 매일"
+ },
+ {
+  "ID": 55,
+  "title": "후라이의 꿈",
+  "year": 2023,
+  "artist": "AKMU(악뮤)",
+  "writer": "이찬혁",
+  "sentence": "난 차라리 흘러갈래 모두 높은 곳을 우러러볼 때 난 내 물결을 따라"
+ },
+ {
+  "ID": 56,
+  "title": "보름달 (Feat. Lena)",
+  "year": 2014,
+  "artist": "선미",
+  "writer": "용감한 형제",
+  "sentence": "그대여 보름달이 뜨는 날, 날 보러와요 이 밤이 가기 전에 해 뜨기 전에 서둘러줘요"
+ },
+ {
+  "ID": 57,
+  "title": "가시나",
+  "year": 2017,
+  "artist": "선미",
+  "writer": "TEDDY, 선미, Joe Rhee, 24",
+  "sentence": "왜 예쁜 날 두고 가시나"
+ },
+ {
+  "ID": 58,
+  "title": "주인공",
+  "year": 2018,
+  "artist": "선미",
+  "writer": "TEDDY",
+  "sentence": "우리 둘 만의 이 영화에 진짜 주인공은 너였어"
+ },
+ {
+  "ID": 59,
+  "title": "Black Pearl",
+  "year": 2018,
+  "artist": "선미",
+  "writer": "선미",
+  "sentence": "나를 지키려 참아온 건데 네 눈엔 그게 그리도 착하고 반짝거렸나봐"
+ },
+ {
+  "ID": 60,
+  "title": "Hurt",
+  "year": 2022,
+  "artist": "NewJeans",
+  "writer": "Gigi, Amanda Lundstedt",
+  "sentence": "느린 한마디보다 조용함이 더 좋아 기다리고 있지만 매일 이런 건 아냐"
+ },
+ {
+  "ID": 61,
+  "title": "불장난",
+  "year": 2016,
+  "artist": "BLACKPINK",
+  "writer": "TEDDY",
+  "sentence": "우리 엄만 매일 내게 말했어 언제나 남자 조심하라고 사랑은 마치 불장난 같아서 다치니까"
+ },
+ {
+  "ID": 62,
+  "title": "Lovesick Girls",
+  "year": 2020,
+  "artist": "BLACKPINK",
+  "writer": "TEDDY, LØREN, 지수 (JISOO), 제니 (JENNIE), DANNY CHUNG",
+  "sentence": "아마 다 잠깐 일지도 몰라 우린 무얼 찾아서 헤매는 걸까"
+ },
+ {
+  "ID": 63,
+  "title": "마지막처럼",
+  "year": 2017,
+  "artist": "BLACKPINK",
+  "writer": "TEDDY, 브라더수, CHOICE37",
+  "sentence": "날 너에게 던지면 너는 날 꼭 잡아줘 세상은 우릴 꺾지 못할 테니까"
+ },
+ {
+  "ID": 64,
+  "title": "Forever Young",
+  "year": 2018,
+  "artist": "BLACKPINK",
+  "writer": "TEDDY",
+  "sentence": "너의 눈에 비친 나의 모습이 늘 처음 만난 그 날만 같길"
+ },
+ {
+  "ID": 65,
+  "title": "뚜두뚜두 (DDU-DU DDU-DU)",
+  "year": 2018,
+  "artist": "BLACKPINK",
+  "writer": "TEDDY",
+  "sentence": "착한 얼굴에 그렇지 못한 태도"
+ },
+ {
+  "ID": 66,
+  "title": "붐바야",
+  "year": 2016,
+  "artist": "BLACKPINK",
+  "writer": "TEDDY, Rebecca Johnson",
+  "sentence": "문을 박차면 모두 날 바라봄 굳이 애써 노력 안 해도 모든 남자들은 코피가 팡팡팡"
+ },
+ {
+  "ID": 67,
+  "title": "Don't Know What To Do",
+  "year": 2019,
+  "artist": "BLACKPINK",
+  "writer": "TEDDY",
+  "sentence": "사람은 변해 왜 나만 이래 오늘처럼 예쁜 날에"
+ },
+ {
+  "ID": 68,
+  "title": "STAY",
+  "year": 2016,
+  "artist": "BLACKPINK",
+  "writer": "TEDDY",
+  "sentence": "널 닮은 듯한 슬픈 멜로디 이렇게 날 울리는데"
+ },
+ {
+  "ID": 69,
+  "title": "Yeah Yeah Yeah",
+  "year": 2022,
+  "artist": "BLACKPINK",
+  "writer": "VVN, KUSH, 지수 (JISOO), 로제 (ROSÉ)",
+  "sentence": "넌 왜 나타나서 뭔데 자꾸 생각나 혹시 나 좋아하면 말해 Just say yeah yeah yeah"
+ },
+ {
+  "ID": 70,
+  "title": "You Never Know",
+  "year": 2020,
+  "artist": "BLACKPINK",
+  "writer": "LØREN, Bekuh Boom",
+  "sentence": "애써서 활짝 웃었던 날에 밤은 왜 더 어두울까"
+ },
+ {
+  "ID": 71,
+  "title": "MILLIONS",
+  "year": 2018,
+  "artist": "WINNER",
+  "writer": "강승윤, MINO (송민호), 이승훈",
+  "sentence": "겉으로만 수백 가지 그 속엔 백만 가지 이유들로 네가 좋아"
+ },
+ {
+  "ID": 72,
+  "title": "REALLY REALLY",
+  "year": 2017,
+  "artist": "WINNER",
+  "writer": "강승윤, MINO (송민호), 이승훈",
+  "sentence": "어디야 집이야 안 바쁨 나와봐 너네 집 앞에야 너에게 하고픈 말이 있어"
+ },
+ {
+  "ID": 73,
+  "title": "ISLAND",
+  "year": 2017,
+  "artist": "WINNER",
+  "writer": "강승윤, MINO (송민호), 이승훈, Bekuh Boom",
+  "sentence": "한여름의 뜨거운 태양보다 석양빛 너의 미소가 좋아"
+ },
+ {
+  "ID": 74,
+  "title": "EVERYDAY",
+  "year": 2018,
+  "artist": "WINNER",
+  "writer": "강승윤, MINO (송민호), 이승훈",
+  "sentence": "넌 봐도 봐도 끝이 안 보여 넌 파도 파도 매일 새로워"
+ },
+ {
+  "ID": 75,
+  "title": "AIR",
+  "year": 2018,
+  "artist": "WINNER",
+  "writer": "강승윤, MINO (송민호), 이승훈",
+  "sentence": "칙칙한 내 아침이 언제부턴가 신선해 너의 향기 때문에"
+ },
+ {
+  "ID": 76,
+  "title": "RAINING",
+  "year": 2018,
+  "artist": "WINNER",
+  "writer": "이승훈, MINO (송민호)",
+  "sentence": "매일이 매일이 매일이 너로 젖는다 우산 없이 널 씻어 내린다 시간이 흐르는 것처럼"
+ },
+ {
+  "ID": 77,
+  "title": "예뻤더라 (WE WERE)",
+  "year": 2018,
+  "artist": "WINNER",
+  "writer": "강승윤",
+  "sentence": "오랜만이야 어디 아픈 데 없이 잘 지냈니"
+ },
+ {
+  "ID": 78,
+  "title": "FOOL",
+  "year": 2017,
+  "artist": "WINNER",
+  "writer": "강승윤",
+  "sentence": "눈부시게 빛나던 넌 멀리멀리로 흩어져버린 기억들을 더듬고"
+ },
+ {
+  "ID": 79,
+  "title": "Well",
+  "year": 2020,
+  "artist": "WINNER",
+  "writer": "강승윤, MINO (송민호), 이승훈",
+  "sentence": "너도 나처럼 길을 걷다가도 눈물이 날까 숨 쉬는 것조차 싫어질까"
+ },
+ {
+  "ID": 80,
+  "title": "OMG",
+  "year": 2019,
+  "artist": "WINNER",
+  "writer": "강승윤, MINO (송민호), 이승훈",
+  "sentence": "내 생에 봄은 너라서 가슴 속에 Flower 피어난 마음으로 보면 모든 게 아름다워"
+ },
+ {
+  "ID": 81,
+  "title": "CAPTAIN",
+  "year": 2020,
+  "artist": "강승윤",
+  "writer": "강승윤",
+  "sentence": "난 그대의 선원 그댄 캡틴이라오 표류하는 나를 구해줬잖소"
+ },
+ {
+  "ID": 82,
+  "title": "뜨거웠던가요",
+  "year": 2020,
+  "artist": "강승윤",
+  "writer": "강승윤",
+  "sentence": "적어도 이 계절이 다시 한 바퀴 돌아올 때까진 너를 앓고 싶었는데"
+ },
+ {
+  "ID": 83,
+  "title": "멍",
+  "year": 2020,
+  "artist": "강승윤",
+  "writer": "강승윤",
+  "sentence": "난 또 멍하니 앉아서 창밖을 보네요 뭘 보는진 몰라요"
+ },
+ {
+  "ID": 84,
+  "title": "겁 (feat. 태양)",
+  "year": 2016,
+  "artist": "MINO (송민호)",
+  "writer": "MINO (송민호)",
+  "sentence": "아버지 날 보고 있다면 정답을 알려줘"
+ },
+ {
+  "ID": 85,
+  "title": "이유 없는 상실감에 대하여",
+  "year": 2020,
+  "artist": "MINO (송민호)",
+  "writer": "MINO (송민호)",
+  "sentence": "남과 남으로 밤과 낮으로 사람과 사랑으로 이유 없는 상실감에 대하여"
+ },
+ {
+  "ID": 86,
+  "title": "LOSING U",
+  "year": 2021,
+  "artist": "MINO (송민호)",
+  "writer": "MINO (송민호)",
+  "sentence": "널 갈망할 구실도 없으니까 시간이 약이란 빌미로 흐르게 두었지 사라져 가는 것도 모른 채로"
+ },
+ {
+  "ID": 87,
+  "title": "Sunrise",
+  "year": 2020,
+  "artist": "MINO (송민호)",
+  "writer": "MINO (송민호)",
+  "sentence": "하지만 새벽녘이 되면 어김없이 찾아오는 고통에 잠 깨어 어둠 뒤집어쓴 채로 아침이 오기만을 기다려"
+ },
+ {
+  "ID": 88,
+  "title": "한 페이지가 될 수 있게",
+  "year": 2019,
+  "artist": "DAY6 (데이식스)",
+  "writer": "Young K (DAY6)",
+  "sentence": "아름다운 청춘의 한 장 함께 써내려 가자 너와의 추억들로 가득 채울래"
+ },
+ {
+  "ID": 89,
+  "title": "마치 흘러가는 바람처럼",
+  "year": 2019,
+  "artist": "DAY6 (데이식스)",
+  "writer": "Young K (DAY6), 원필 (DAY6)",
+  "sentence": "마치 흘러가는 바람처럼 넌 영원히 잡으려 해도 잡히지가 않아"
+ },
+ {
+  "ID": 90,
+  "title": "I Loved You",
+  "year": 2017,
+  "artist": "DAY6 (데이식스)",
+  "writer": "Young K (DAY6)",
+  "sentence": "널 사랑했던 만큼 더 힘든 거야 미워하고 싶어도 하지 못할 너라서 더 미운 거야"
+ },
+ {
+  "ID": 91,
+  "title": "Beautiful Feeling",
+  "year": 2018,
+  "artist": "DAY6 (데이식스)",
+  "writer": "Young K (DAY6), HILO (Isaac Han)",
+  "sentence": "너와 같은 하늘아래에 숨쉬는 매 순간이 난 좋아 사랑이란 단어론 충분하지가 않아 이 아름다운 느낌"
+ },
+ {
+  "ID": 92,
+  "title": "행복했던 날들이었다",
+  "year": 2018,
+  "artist": "DAY6 (데이식스)",
+  "writer": "Young K (DAY6)",
+  "sentence": "아주 가끔은 그리워할 거야 널 사실 가끔은 아니고 자주겠지"
+ },
+ {
+  "ID": 93,
+  "title": "Zombie",
+  "year": 2020,
+  "artist": "DAY6 (데이식스)",
+  "writer": "Young K (DAY6), 원필 (DAY6)",
+  "sentence": "오늘도 똑같이 흘러가 나만 이렇게 힘들까 어떻게 견뎌야 할까 마음껏 소리쳐 울면 나아질까"
  }
 ]
