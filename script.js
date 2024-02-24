@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const currentTime = new Date().getTime();
         const totalTime = (currentTime - startTime) / 1000; // in seconds
-        const typingSpeed = Math.round((userInputValue.length / totalTime) * 60); // characters per minute
+        const typingSpeed = Math.round((userInputValue.length / totalTime) * 60 * 2.2); // characters per minute
         typingSpeedDisplay.textContent = '속도: ' + typingSpeed + ' 타'; // Update typing speed display
     }
 
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 .then(sentences => {
                     const randomIndex = Math.floor(Math.random() * sentences.length);
                     exampleSentence.textContent = sentences[randomIndex].sentence;
-                    source.textContent = sentences[randomIndex].title + ', ' + sentences[randomIndex].artist + ' (' + sentences[randomIndex].year + ')';
+                    source.textContent = sentences[randomIndex].title + ' (' + sentences[randomIndex].year + ')' + ', ' + sentences[randomIndex].artist;
                     writer.textContent = sentences[randomIndex].writer;
                     exampleSentenceWords = sentences[randomIndex].sentence.split(/\s+/);
                     userInput.value = '';
