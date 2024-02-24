@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         const accuracy = Math.round((correctCharCount / charCount) * 100); // percentage
-        accuracyDisplay.textContent = 'Accuracy: ' + accuracy + '%'; // Update accuracy display
+        accuracyDisplay.textContent = '정확도: ' + accuracy + '%'; // Update accuracy display
 
         const currentTime = new Date().getTime();
         const totalTime = (currentTime - startTime) / 1000; // in seconds
