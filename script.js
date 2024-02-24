@@ -17,19 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
         const userInputValue = userInput.value.trim();
         const exampleSentenceValue = exampleSentence.textContent.trim();
         const minLen = Math.min(userInputValue.length, exampleSentenceValue.length);
+        let charCount = 0;
         let correctCharCount = 0;
         for (let i = 0; i < minLen; i++) {
+            charCount ++;
             if (userInputValue[i] === exampleSentenceValue[i]) {
                 correctCharCount++;
             }
         }
-        const accuracy = Math.round((correctCharCount / exampleSentenceValue.length) * 100); // percentage
+        const accuracy = Math.round((correctCharCount / charCount) * 100); // percentage
         accuracyDisplay.textContent = 'Accuracy: ' + accuracy + '%'; // Update accuracy display
 
         const currentTime = new Date().getTime();
         const totalTime = (currentTime - startTime) / 1000; // in seconds
         const typingSpeed = Math.round((userInputValue.length / totalTime) * 60); // characters per minute
-        typingSpeedDisplay.textContent = 'Speed: ' + typingSpeed + ' CPM'; // Update typing speed display
+        typingSpeedDisplay.textContent = '속도: ' + typingSpeed + ' 타'; // Update typing speed display
     }
 
     // Event listener for user input
