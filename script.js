@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!startTime) {
             startTime = new Date().getTime();
         }
-        const userInputValue = userInput.value.trim();
+        const userInputValue = userInput.textContent.trim();
         const exampleSentenceValue = exampleSentence.textContent.trim();
         const minLen = Math.min(userInputValue.length, exampleSentenceValue.length);
         let charCount = 0;
