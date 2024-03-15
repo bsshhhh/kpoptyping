@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     source.textContent = sentences[randomIndex].title + ' (' + sentences[randomIndex].year + ')' + ', ' + sentences[randomIndex].artist;
                     writer.textContent = sentences[randomIndex].writer;
                     exampleSentenceWords = sentences[randomIndex].sentence.split(/\s+/);
-                    userInput.value = '';
+                    userInput.textContent = '';
                     startTime = null;
                     wordCount = 0;
                     correctWordCount = 0;
