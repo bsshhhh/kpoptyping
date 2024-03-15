@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     userInput.addEventListener('input', calculateMetrics);
 
     // Event listener for Enter key press
-    userInput.addEventListener('keypress', function(event) {
+    userInput.addEventListener('keydown', function(event) {
         if (event.key === 'Enter') {
             fetch('sentences.json')
                 .then(response => response.json())
@@ -59,5 +59,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Fetch initial sentence on page load
-    userInput.dispatchEvent(new KeyboardEvent('keypress', {'key': 'Enter'}));
+    userInput.dispatchEvent(new KeyboardEvent('keydown', {'key': 'Enter'}));
 });
