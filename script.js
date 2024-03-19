@@ -48,14 +48,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     source.textContent = sentences[randomIndex].title + ' (' + sentences[randomIndex].year + ')' + ', ' + sentences[randomIndex].artist;
                     writer.textContent = sentences[randomIndex].writer;
                     exampleSentenceWords = sentences[randomIndex].sentence.split(/\s+/);
-                    // userInput.textContent = '';
-                    userInput.empty();
-                    startTime = null;
-                    wordCount = 0;
-                    correctWordCount = 0;
-                    userInput.focus();
                 })
                 .catch(error => console.error('Error fetching sentences:', error));
+            // userInput.textContent = '';
+            userInput.empty();
+            startTime = null;
+            wordCount = 0;
+            correctWordCount = 0;
+            userInput.focus();
         }
     });
 
