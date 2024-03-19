@@ -52,6 +52,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     startTime = null; // Reset start time
                     wordCount = 0; // Reset word count
                     correctWordCount = 0; // Reset correct word count
+                    setTimeout(() => { // Delay calculation to ensure variables are reset
+                        calculateMetrics();
+                    }, 0);
                     userInput.focus();
                 })
                 .catch(error => console.error('Error fetching sentences:', error));
