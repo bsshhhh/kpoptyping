@@ -16,6 +16,9 @@ th, td {
     text-align: left;
     font-size: 13px;
 }
+td:nth-child(2) {
+    width: 20%; /* Adjust the width as needed */
+}
 #top-line {
     background-color: #1D6F42;
     color: #F8F8FF;
@@ -35,7 +38,7 @@ th, td {
 #source {
     text-align: left;
 }
-#writers {
+#writer {
     text-align: right;
 }
 #example-sentence, #user-input {
