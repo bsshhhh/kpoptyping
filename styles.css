@@ -31,7 +31,7 @@ td:nth-child(2) {
 #head-col{
 	width: 5%
 }
-#source, #writers{
+#source, #writer{
     color: #999;
     font-style: italic;
 }
